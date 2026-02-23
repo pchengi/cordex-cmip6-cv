@@ -62,6 +62,8 @@ dataset_id:
   type: dataset_id
   separator: .
   parts:
+    - source_collection: project_id
+      is_required: true
     - source_collection: activity_id
       is_required: true
     - source_collection: domain_id
