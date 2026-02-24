@@ -84,3 +84,5 @@ dataset_id:
       is_required: true
     - source_collection: variable_id
       is_required: true
+    - source_collection: version
+      is_required: true
